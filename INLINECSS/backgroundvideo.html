@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video Background</title>
+</head>
+
+<body style="margin:0; overflow:hidden; font-family:Arial, sans-serif;">
+
+    <!-- Background Video -->
+    <video autoplay muted loop
+        style="
+            position:fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            z-index:-2;">
+
+        <source src="nature.mp4" type="video/mp4">
+
+    </video>
+
+    <!-- Black Overlay -->
+    <div style="
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,1.1);
+        z-index:-1;">
+    </div>
+
+    <!-- Navbar -->
+    <div style="
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:20px 60px;
+        color:white;">
+
+        <h2>LOGO</h2>
+
+        <div>
+            <a href="#" style="color:white; text-decoration:none; margin:15px;">Home</a>
+            <a href="#" style="color:white; text-decoration:none; margin:15px;">About</a>
+            <a href="#" style="color:white; text-decoration:none; margin:15px;">Services</a>
+            <a href="#" style="color:white; text-decoration:none; margin:15px;">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- Hero Section -->
+    <div style="
+        height:80vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding-left:80px;
+        color:white;">
+
+        <h1 style="font-size:60px; margin:0;">
+            Crafting Architectural Excellence
+        </h1>
+
+        <p style="font-size:20px; width:500px;">
+            We create beautiful and modern architecture with innovative ideas.
+        </p>
+
+        <button style="
+            width:180px;
+            padding:15px;
+            background:orange;
+            border:none;
+            color:white;
+            border-radius:30px;
+            font-size:18px;
+            cursor:pointer;">
+            Our Projects
+        </button>
+
+    </div>
+
+</body>
+</html>

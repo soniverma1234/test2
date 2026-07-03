@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+}
+p {
+    color: rgb(33, 210, 30);
+}
+button{
+    color: chocolate;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+body{
+    background-color: rgba(211, 52, 123, 0.79);
+}

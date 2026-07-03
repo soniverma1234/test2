@@ -1,0 +1,12 @@
+.box {
+    width: 300px;
+    height: 200px;
+    border: 30px groove gray;
+    background: linear-gradient(red, yellow);
+}
+.box1{
+    width: 500px;
+    height: 400px;
+    /* border-radius: 10px 0 10 0; */
+    border: 15px dotted ghostwhite;
+}
